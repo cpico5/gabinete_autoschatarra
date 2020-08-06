@@ -311,8 +311,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_foto2" />
-                            <entry key="sourceFile" value="C:\Users\Userend\Desktop\foto2.svg" />
+                            <entry key="outputName" value="ic_salir" />
+                            <entry key="sourceFile" value="C:\Ulises\cars\salir.svg" />
                           </map>
                         </option>
                       </PersistentState>
