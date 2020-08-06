@@ -24,35 +24,56 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical" >
-                
-                <TextView
-                android:id="@+id/textPreguntamarca_vehiculo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/PREGUNTAmarca_vehiculo"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="#002266"
-                android:textStyle="bold" />
-                
-                <RadioGroup
-                android:id="@+id/rdPreguntamarca_vehiculo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textPreguntamarca_vehiculo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="#10A861"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="@string/PREGUNTAmarca_vehiculo"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/BLANCO"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RadioGroup
+                            android:id="@+id/rdPreguntamarca_vehiculo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical">
 
 
-                    <Spinner
-                        android:id="@+id/spinnermarca_vehiculo"
-                        android:layout_width="259dp"
-                        android:layout_height="wrap_content"
-                        android:hint="Selecciona"
-                        android:layout_marginTop="30dp"
-                        android:spinnerMode="dialog"
-                        android:singleLine="false"
-                        android:layout_marginLeft="10dp" />
-  
-</RadioGroup>
-</LinearLayout>
+                            <Spinner
+                                android:id="@+id/spinnermarca_vehiculo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:backgroundTint="#ABF107"
+                                android:backgroundTintMode="add"
+                                android:foregroundGravity="center"
+                                android:hint="Selecciona"
+                                android:paddingStart="5dp"
+                                android:singleLine="false"
+                                android:spinnerMode="dialog" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </LinearLayout>
 </LinearLayout>
 </ScrollView>
 </RelativeLayout>

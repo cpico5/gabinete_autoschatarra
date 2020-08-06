@@ -24,36 +24,55 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical" >
-                
-                <TextView
-                android:id="@+id/textPreguntatiempo_abandono"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/PREGUNTAtiempo_abandono"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="#002266"
-                android:textStyle="bold" />
-                
-                <RadioGroup
-                android:id="@+id/rdPreguntatiempo_abandono"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
 
-                    <EditText
-                        android:id="@+id/editPreguntatiempo_abandono"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginBottom="30dp"
-                        android:ems="10"
-                        android:hint="Días"
-                        android:inputType="number"
-                        android:maxLength="4"
-                        android:textSize="16sp" />
-  
-</RadioGroup>
-</LinearLayout>
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textPreguntatiempo_abandono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="#10A861"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="@string/PREGUNTAtiempo_abandono"
+                            android:textAlignment="viewStart"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/BLANCO"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RadioGroup
+                            android:id="@+id/rdPreguntatiempo_abandono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/editPreguntatiempo_abandono"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:layout_marginBottom="30dp"
+                                android:ems="10"
+                                android:hint="Días"
+                                android:inputType="number"
+                                android:maxLength="4"
+                                android:paddingLeft="15dp"
+                                android:textSize="20sp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </LinearLayout>
 </LinearLayout>
 </ScrollView>
 </RelativeLayout>

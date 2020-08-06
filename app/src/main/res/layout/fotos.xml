@@ -33,18 +33,17 @@
                 <!-- DATOS DEL REPORTE -->
 
 
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="7dp"
-                        android:layout_marginBottom="7dp"
-                        android:text="Fotografía1"
-                        android:textAlignment="center"
-                        android:textColor="#00AE42"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:paddingStart="15dp"
+                    android:text="Fotografía1"
+                    android:textAlignment="center"
+                    android:textColor="#00AE42"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
 
 
@@ -109,10 +108,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
+                    android:paddingStart="15dp"
                     android:text="Fotografía2"
                     android:textAlignment="center"
                     android:textColor="#00AE42"
-                    android:textSize="17sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <LinearLayout

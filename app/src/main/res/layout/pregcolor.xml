@@ -24,36 +24,51 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical" >
-                
-                <TextView
-                android:id="@+id/textPreguntacolor"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/PREGUNTAcolor"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="#002266"
-                android:textStyle="bold" />
-                
-                <RadioGroup
-                android:id="@+id/rdPreguntacolor"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
 
-
-                    <EditText
-                        android:id="@+id/editPreguntacolor"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginBottom="30dp"
-                        android:ems="10"
-                        android:hint="Color"
-                        android:inputType="text"
-                        android:textSize="16sp" />
-  
-</RadioGroup>
-</LinearLayout>
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textPreguntacolor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="#10A861"
+                            android:paddingStart="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="@string/PREGUNTAcolor"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/BLANCO"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RadioGroup
+                            android:id="@+id/rdPreguntacolor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical">
+
+
+                            <EditText
+                                android:id="@+id/editPreguntacolor"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:ems="10"
+                                android:hint="Color"
+                                android:inputType="text"
+                                android:paddingStart="15dp"
+                                android:textSize="16sp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </LinearLayout>
 </LinearLayout>
 </ScrollView>
 </RelativeLayout>

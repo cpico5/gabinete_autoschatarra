@@ -24,34 +24,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical" >
-                
-                <TextView
-                android:id="@+id/textPreguntacapturo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/PREGUNTAcapturo"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="#002266"
-                android:textStyle="bold" />
-                
-                <RadioGroup
-                android:id="@+id/rdPreguntacapturo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
-                
-  <EditText
-  android:id="@+id/editPreguntacapturo"
-  android:layout_width="320dp"
-  android:layout_height="wrap_content"
-  android:layout_marginBottom="30dp"
-  android:layout_marginTop="30dp"
-  android:ems="10"
-  android:hint="Capturó"
-  android:inputType="text"
-  android:textSize="16sp" />
-  
-</RadioGroup>
+
+                    <TextView
+                        android:id="@+id/textPreguntacapturo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#10A861"
+                        android:paddingStart="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/PREGUNTAcapturo"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/BLANCO"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntacapturo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/editPreguntacapturo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="30dp"
+                            android:ems="10"
+                            android:hint="Capturó"
+                            android:inputType="text"
+                            android:paddingStart="15dp"
+                            android:textSize="16sp" />
+
+                    </RadioGroup>
 </LinearLayout>
 </LinearLayout>
 </ScrollView>

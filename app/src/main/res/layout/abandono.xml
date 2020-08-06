@@ -34,39 +34,64 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical" >
 
-                            <TextView
-                                android:id="@+id/textPreguntaAbandono"
+                            <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Tipo de captura "
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:textColor="#002266"
-                                android:textStyle="bold" />
+                                android:layout_weight="0.5"
+                                android:background="#79D8FAEF"
+                                android:orientation="horizontal">
 
-                            <RadioGroup
-                                android:id="@+id/rdPreguntaAbandono"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
-                                android:orientation="vertical" >
-
-                                <RadioButton  android:button="@drawable/radiobutton_selector" android:textColor="@drawable/radiobutton_color_selector" android:theme="@style/RadioButton"
-                                    android:id="@+id/radio_abandono1"
+                                <TextView
+                                    android:id="@+id/textPreguntaAbandono"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:checked="true"
-                                    android:layout_marginBottom="10dp"
-                                    android:text="Completa"
-                                    android:textSize="16sp" />
+                                    android:layout_weight="0.5"
+                                    android:background="#10A861"
+                                    android:paddingStart="15dp"
+                                    android:paddingTop="5dp"
+                                    android:paddingBottom="5dp"
+                                    android:text="Tipo de captura "
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/BLANCO"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
 
-                                <RadioButton  android:button="@drawable/radiobutton_selector" android:textColor="@drawable/radiobutton_color_selector" android:theme="@style/RadioButton"
-                                    android:id="@+id/radio_abandono2"
+                                <RadioGroup
+                                    android:id="@+id/rdPreguntaAbandono"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Abandono"
-                                    android:textSize="16sp" />
+                                    android:layout_weight="0.5"
+                                    android:orientation="vertical"
+                                    android:paddingStart="10dp">
 
-                            </RadioGroup>
+                                    <RadioButton
+                                        android:id="@+id/radio_abandono1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="10dp"
+                                        android:button="@drawable/radiobutton_selector"
+                                        android:checked="true"
+                                        android:paddingStart="15dp"
+                                        android:text="Completa"
+                                        android:textColor="@drawable/radiobutton_color_selector"
+                                        android:textSize="16sp"
+                                        android:theme="@style/RadioButton" />
+
+                                    <RadioButton
+                                        android:id="@+id/radio_abandono2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:button="@drawable/radiobutton_selector"
+                                        android:paddingStart="15dp"
+                                        android:text="Abandono"
+                                        android:textColor="@drawable/radiobutton_color_selector"
+                                        android:textSize="16sp"
+                                        android:theme="@style/RadioButton" />
+
+                                </RadioGroup>
+
+                            </LinearLayout>
+
                         </LinearLayout>
             </LinearLayout>
 
