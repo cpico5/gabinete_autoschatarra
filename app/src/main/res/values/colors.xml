@@ -1,0 +1,78 @@
+<resources>
+
+<color name="my_spinner_text_color">#7e0202</color>
+<dimen name="my_spinner_text_size">15dp</dimen>
+
+ <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#585858</color>
+    <color name="green" >#1bb600</color>
+
+    <color name="robot_exito">#45C12F</color>
+    <color name="robot_password">#0CD3F4</color>
+    <color name="robot_sin_internet">#F2600F</color>
+    <color name="robot_nohay_datos">#C1C1C1</color>
+    <!-- BienvenidoActivity -->
+    <color name="bienvenido_activity_bienvenido_constraint_layout_background_color">#F4F2F4</color>
+    <color name="bienvenido_activity_group4_two_constraint_layout_background_color">#00AE42</color>
+    <color name="bienvenido_activity_group4_two_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_group2_two_constraint_layout_background_color">#33000000</color>
+    <color name="bienvenido_activity_group2_two_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_reporte_de_mantenimi_text_view_text_color">#FFFFFF</color>
+    <color name="bienvenido_activity_group4_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_hola_bienvenido_text_view_text_color">#F9FFFF</color>
+    <color name="bienvenido_activity_login_fields_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_two_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_two_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_paterno_edit_text_background_color">@android:color/transparent</color>
+    <color name="bienvenido_activity_paterno_edit_text_text_color">#000000</color>
+    <color name="bienvenido_activity_materno_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_nombre_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_nombre_del_operador_text_view_text_color">#00AE42</color>
+    <color name="bienvenido_activity_datos_generales_text_view_text_color">#00AE42</color>
+    <color name="bienvenido_activity_login_fields_two_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_two_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_dia_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_login_fields_three_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_three_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_ano_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_fecha_de_supervision_text_view_text_color">#00AE42</color>
+    <color name="bienvenido_activity_login_fields_four_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_four_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_three_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_three_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_four_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_four_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_paterno_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_materno_two_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_nombre_two_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_login_fields_five_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_five_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_five_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_five_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_six_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_six_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_zona_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_numero_de_placa_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_nombre_del_operador_two_text_view_text_color">#00AE42</color>
+    <color name="bienvenido_activity_turno_text_view_text_color">#00AE42</color>
+    <color name="bienvenido_activity_login_fields_six_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_six_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_seven_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_seven_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_matutino_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_login_fields_seven_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_seven_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_separator_eight_constraint_layout_background_color">#000000</color>
+    <color name="bienvenido_activity_separator_eight_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_vespertino_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_login_fields_eight_constraint_layout_background_color">#FFFFFF</color>
+    <color name="bienvenido_activity_login_fields_eight_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_mes_text_view_text_color">#000000</color>
+    <color name="bienvenido_activity_group2_constraint_layout_border_color">#979797</color>
+    <color name="bienvenido_activity_siguiente_text_view_text_color">#FFFFFF</color>
+
+</resources>

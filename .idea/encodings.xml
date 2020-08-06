@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/build.gradle" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/BienvenidaActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/MainActivityPantalla1.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/UnCaughtException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/model/Aplicacion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/model/CheckForSDCard.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/model/Nombre.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/AlarmReceiver.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/AndroidLocationServices.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/AppLog.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/BienvenidaActivity.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/Constants.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/Crash.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/GPSTracker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/GPSWidgetProviderParticipacion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/ImageTool.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/Imei.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/LocationService.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/LocationWebService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/NotificationsHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/SignupActivity.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/Utils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/WifiState.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/service/gpsappwidget.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/mx/gob/cdmx/participacionciudadana/upgradeActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_fondo_sacmex.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_actualizar.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_sac2.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_splash_def2.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vivo2.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mensaje_enviado.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/app_pc.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_logos_salud.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/alert_personalizado.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/bienvenida.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/gpswidget.xml" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/paths.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="ISO-8859-1" />
+  </component>
+</project>

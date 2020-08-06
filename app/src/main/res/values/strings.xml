@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Autos Chatarra v1.0.3</string>
+    <string name="app_version">1.0.3</string>
+    <string name="url_aplicacion">https://territorial.cdmx.gob.mx</string>
+    <string name="url_gps">https://territorial.cdmx.gob.mx</string>
+    <string name="project_object">GabineteAutosChatarra</string>
+    <string name="app_project">GabineteAutosChatarra</string>
+
+    <string name="url_upgrade">https://territorial.cdmx.gob.mx</string>
+    <!-- Login -->
+
+    <string name="urls_gps">https://territorial.cdmx.gob.mx</string>
+<!--    <string name="url_gps">http://territorial.cdmx.gob.mx</string>-->
+<!--    <string name="url_aplicacion">https://territorial.cdmx.gob.mx</string>-->
+
+    <string name="download">Download</string>
+    <string name="write_file">This app needs access to your file storage so that it can write files.</string>
+    <string name="sistema_pruebas"><![CDATA[<b>Sistema de pruebas</b>]]></string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="zona">zona</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="noSabe">No Sabe</string>
+    <string name="de_acuerdo">De acuerdo</string>
+    <string name="nide_acuerdo">Ni de acuerdo, ni en desacuerdo</string>
+    <string name="en_desacuerdo">En desacuerdo</string>
+    <string name="mejor">Mejor</string>
+    <string name="igual">Igual</string>
+    <string name="peor">Peor</string>
+    <string name="mucha">Mucha</string>
+    <string name="poca">Poca</string>
+    <string name="ninguna">Ninguna</string>
+    <string name="radio">Radio</string>
+    <string name="television">Televisión</string>
+    <string name="periodico">Periódico</string>
+    <string name="internet">Internet</string>
+    <string name="otro">Otro</string>
+    <string name="otraForma">Otra forma</string>
+    <string name="MuyBien">Muy bien</string>
+    <string name="Bien">Bien</string>
+    <string name="Regular">Regular</string>
+    <string name="Mal">Mal</string>
+    <string name="MuyMal">Muy mal</string>
+    <string name="Mbueno">Muy bueno</string>
+    <string name="Bueno">Bueno</string>
+    <string name="Malo">Malo</string>
+    <string name="MuyMalo">Muy malo</string>
+    <string name="Muybuena">Muy buena</string>
+    <string name="Buena">Buena</string>
+    <string name="Mala">Mala</string>
+    <string name="MuyMala">Muy mala</string>
+    <string name="MuySeguro">Muy seguro</string>
+    <string name="AlgoSeguro">Algo seguro</string>
+    <string name="AlgoInseguro">Algo inseguro</string>
+    <string name="MuyInseguro">Muy inseguro</string>
+    <string name="Muchisimo">Muchísimo</string>
+    <string name="Mucho">Mucho</string>
+    <string name="Poco">Poco</string>
+    <string name="Nada">Nada</string>
+    <string name="MuchoMasCerca">Mucho más cerca</string>
+    <string name="Cerca">Cerca</string>
+    <string name="Lejos">Lejos</string>
+    <string name="MuchoMasLejos">Mucho más lejos</string>
+    <string name="MuchoMasBaratos">Mucho más baratos</string>
+    <string name="Masbaratos">Más baratos</string>
+    <string name="Mascaros">Más Caros</string>
+    <string name="MuchoMasCaros">Mucho más Caros</string>
+    <string name="Mmejores">Mucho mejores</string>
+    <string name="Mejores">Mejores</string>
+    <string name="Peores">Peores</string>
+    <string name="Mpeores">Mucho peores</string>
+
+    <string name="PREGUNTAcalle">Calle</string>
+    <string name="PREGUNTAnum_exterior">Número Exterior</string>
+    <string name="PREGUNTAtiempo_abandono">Tiempo de Abandono (Días)</string>
+    <string name="PREGUNTAmarca_vehiculo">Marca del Vehículo</string>
+    <string name="PREGUNTAsubmarca">SubMarca</string>
+    <string name="PREGUNTAplacas">Placas</string>
+    <string name="PREGUNTAcolor">Color</string>
+    <string name="PREGUNTAcaracteristicas_generales">Características Generales</string>
+    <string name="PREGUNTAcapturo">Nombre quien captura</string>
+
+
+
+
+    <string name="PREGUNTAATRIBUTOS">De los siguientes atributos personales, ¿cuáles cree usted que sí o que no tiene la Jefa de Gobierno, Claudia Sheinbaum?</string>
+    <string name="PREGUNTAEST">Para terminar le voy a realizar algunas preguntas para la estadística</string>
+    <string name="PREGUNTAHIJOS">Tiene hijos</string>
+    <string name="PREGUNTAAPORTA">Pensando en el jefe o jefa de hogar, ¿cuál fue el último año de estudios que aprobó en la escuela?</string>
+    <string name="PREGUNTAOCUPACION">¿Cuál es la principal ocupación o actividad en la semana?</string>
+    <string name="PREGUNTACOCHE">¿Tiene automóvil propio?</string>
+    <string name="PREGUNTACUANTOSCOCHES">¿Cuántos coches tienen en su vivienda?</string>
+    <string name="PREGUNTACUARTOS">Sin contar baño ni cocina, ¿cuántos cuartos tiene su vivienda?</string>
+    <string name="PREGUNTACUARTOSDORMIR">En esta vivienda, ¿cuántos cuartos se usan para dormir, sin contar pasillos ni baños?</string>
+    <string name="PREGUNTAFOCOS">¿Cuántos focos tiene su vivienda?</string>
+    <string name="PREGUNTABANOS">¿Cuántos baños completos con regadera y W.C. (excusado) hay en esta vivienda?</string>
+    <string name="PREGUNTAINTERNET">Sin tomar en cuenta la conexión móvil que pudiera tener desde algún celular ¿este hogar cuenta con internet?</string>
+    <string name="PREGUNTATRABAJARON"> De todas las personas de 14 años o más que viven en el hogar, ¿cuántas trabajaron en el último mes?</string>
+    <string name="PREGUNTAESTUFA">¿Tiene estufa de gas?</string>
+    <string name="PREGUNTAREGADERA">¿Tiene regadera en su baño?</string>
+    <string name="PREGUNTAEDAD">¿Me podría decir su edad?</string>
+    <string name="PREGUNTAGENERO">¿Género?</string>
+    <string name="PREGUNTA_TIPO_VIVIENDA">¿Tipo de vivienda?</string>
+    <string name="PREGUNTA_TIPO_PISO"> ¿El piso de su hogar es predominantemente de tierra, o de cemento, o de algún otro tipo de acabado?</string>
+    <string name="PREGUNTAABANDONO">¿Tipo de encuesta....?</string>
+    <string name="ns">No sabe / No Contestó</string>
+    <string name="nc">No contestó</string>
+    <string name="title_activity_activity__datos">Activity_Datos</string>
+
+</resources>

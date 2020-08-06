@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="243dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/ic_logos_salud"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/OnClickListener"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/app_pc"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:animateLayoutChanges="true"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/src_anim"
+                    android:layout_width="133dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-20dp"
+                    android:background="@drawable/colors" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-60dp"
+                android:animateLayoutChanges="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#E4E4E4"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editUsuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#E4E4E4"
+                        android:drawableLeft="@drawable/ic_usuario"
+                        android:fontFamily="sans-serif"
+                        android:hint="USUARIO"
+                        android:textColor="#FF494949"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="#E4E4E4"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#E4E4E4"
+                        android:drawableLeft="@drawable/ic_pass"
+                        android:fontFamily="sans-serif"
+                        android:hint="CONTRASEÑA"
+                        android:textColor="#555555"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/btnE1"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_below="@+id/editPass"
+                        android:layout_alignLeft="@+id/editPass"
+                        android:layout_alignRight="@+id/editPass"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#3F9602"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="CONTINUAR"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btnSalir"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_below="@+id/btnE1"
+                        android:layout_alignLeft="@+id/btnE1"
+                        android:layout_alignRight="@+id/btnE1"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#8FCE1A"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="SALIR"
+                        android:onClick='salir'
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-120dp"
+                        android:animateLayoutChanges="true"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/login_progress"
+                        style="@android:style/Widget.Holo.ProgressBar.Large"
+                        android:layout_width="30px"
+                        android:layout_height="30px"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="150dp"
+                        android:indeterminateTint="#25C585"
+                        android:progressTint="#FCFFFFFF" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

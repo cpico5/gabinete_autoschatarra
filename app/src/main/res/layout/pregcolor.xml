@@ -1,0 +1,59 @@
+     <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/estadisticas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="Salir"
+                tools:context=".MainActivity" >
+                
+                <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" >
+
+                <LinearLayout
+                android:id="@+id/laycolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+                
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:id="@+id/textPreguntacolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PREGUNTAcolor"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#002266"
+                android:textStyle="bold" />
+                
+                <RadioGroup
+                android:id="@+id/rdPreguntacolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                    <EditText
+                        android:id="@+id/editPreguntacolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:ems="10"
+                        android:hint="Color"
+                        android:inputType="text"
+                        android:textSize="16sp" />
+  
+</RadioGroup>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
