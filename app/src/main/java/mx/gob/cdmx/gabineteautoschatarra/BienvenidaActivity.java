@@ -66,8 +66,6 @@ import static mx.gob.cdmx.gabineteautoschatarra.model.Nombre.APLICACION;
 public class BienvenidaActivity extends Activity {
 
     private static final String TAG = "BienvenidaActivity";
-
-
     double latitude;
     double longitude;
     static InputStream is2 = null;
